@@ -1,0 +1,135 @@
+body
+{
+	height: 100%;
+	background-color:red;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	padding: 0 auto;
+	
+	
+}
+
+.c1
+{
+	color:black;
+	margin: 0 auto;
+    text-align: center;
+	width: 25%;
+	padding: 2%;
+    margin: 1%;
+	float: left;
+	border: 2px solid black;
+	border-radius: 15px;
+	
+	}
+.c1:hover
+{
+border: 2px solid white;
+}
+
+.c2{
+	background-color: blue;
+
+
+}
+.c3
+{
+	background-color:yellow;
+	
+}
+.c4
+{
+	background-color:forestgreen;
+	
+}
+img
+{
+	display: block;
+	text-align: center;
+	border:  2px solid black;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	
+}
+
+
+
+@media (min-width: 1400px)
+
+{
+	body
+	{
+		background-color: red;
+	
+	}
+	
+	h1::after 
+	{
+		content: "1400px"
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1400px)
+
+{
+	body
+	{
+		background-color:cornflowerblue;
+	
+	}
+	
+	h1::after 
+	{
+		content: "1200px"
+	}
+}
+
+
+@media (min-width: 800px) and (max-width: 1200px)
+
+{
+	body
+	{
+		background-color:yellow;
+	
+	}
+	
+	h1::after 
+	{
+		content: "800px"
+	}
+	.c3 
+	{
+		background-color:deeppink;
+	}
+}
+
+
+@media (min-width: 600px) and (max-width: 800px)
+
+{
+	body
+	{
+		background-color:blueviolet;
+	
+	}
+	
+	h1::after 
+	{
+		content: "600px"
+	}
+	h1
+	{
+		font-size: 0,5em;
+	}
+	h1 
+	{
+		color: white;
+	}
+}
+
+
+
+
