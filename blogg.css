@@ -106,7 +106,7 @@ width: 100%;
 .imgkk
 {
 position: relative;
-	left: 190px;
+	left: 140px;
 }
 
 .main nav ul li
@@ -328,8 +328,8 @@ position: relative;
 
 .face
 {
-	position: relative;
-	left: 18px;
+	position:relative;
+	left: 1px;
 }
 
 
@@ -399,7 +399,6 @@ color: black;
 
 
 
-
 /*-------------------@media----------------*/
 
 @media (min-width:1900px) 
@@ -411,6 +410,7 @@ color: black;
 	
 	
 }
+.ddd
 
 
 
@@ -987,3 +987,4 @@ position: relative;
 
 
 
+>>>>>>> 3bdf16e39cd728085bf071358b7374df1f8cfe4e
